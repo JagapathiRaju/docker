@@ -1,0 +1,5 @@
+This is Sample Basic Spring Boot Docker Example
+Commands used  to build Docker Image
+ 1) docker build -f Dockerfile -t spring-boots-basic-image .[To create Image]
+ 2) docker images [To list of images in the docker]
+ 3) docker run -p 8085:8080 spring-boots-basic-image [To Run the Image ]
